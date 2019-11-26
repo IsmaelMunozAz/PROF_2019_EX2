@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import exception.EntradaInvalida;
+
 public class ClaseExamen {
 
 	public static List<Integer> primos(int n) throws Exception{
 		List<Integer>result= new ArrayList<Integer>();
 		if(n<=0 || n==1) {
-			throw new Exception("Entrada invalida");
+			throw new EntradaInvalida();
 		}
 		while(n>1) {
 			if(n%2==0) {
