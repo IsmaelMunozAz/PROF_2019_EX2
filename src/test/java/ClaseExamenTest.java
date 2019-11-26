@@ -21,8 +21,8 @@ public class ClaseExamenTest {
 	@Test
 	public void test2() throws Exception {
 		int n=13;
-		List<Integer>resulta= new ArrayList<Integer>();
-		resulta.add(13);
+		List<Integer>result= new ArrayList<Integer>();
+		result.add(13);
 		assertEquals(resulta,ClaseExamen.primos(n));
 	}
 	
