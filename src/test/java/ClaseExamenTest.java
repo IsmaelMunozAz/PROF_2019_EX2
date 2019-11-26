@@ -23,7 +23,7 @@ public class ClaseExamenTest {
 		int n=13;
 		List<Integer>result= new ArrayList<Integer>();
 		result.add(13);
-		assertEquals(resulta,ClaseExamen.primos(n));
+		assertEquals(result,ClaseExamen.primos(n));
 	}
 	
 	@Test
